@@ -1064,7 +1064,7 @@
         "Node name for S&R": "KSampler"
       },
       "widgets_values": [
-        263086779228404,
+        527541376222040,
         "randomize",
         10,
         2.5,
@@ -1433,7 +1433,7 @@
         "Node name for S&R": "KSampler"
       },
       "widgets_values": [
-        410957967478358,
+        527541376222040,
         "randomize",
         20,
         7,
@@ -1792,10 +1792,10 @@
         "Node name for S&R": "easy globalSeed"
       },
       "widgets_values": [
-        622526286821290,
+        527541376222040,
         true,
         "randomize",
-        910614797371166
+        622526286821290
       ]
     },
     {
@@ -1836,7 +1836,7 @@
         "Node name for S&R": "LoadImage"
       },
       "widgets_values": [
-        "1920black.png",
+        "1024black (2).png",
         "image"
       ]
     }
