@@ -20,10 +20,10 @@
         "Node name for S&R": "easy globalSeed"
       },
       "widgets_values": [
-        328510831957349,
+        655251458700218,
         true,
         "randomize",
-        573546349739280
+        130686119865311
       ]
     },
     {
@@ -640,7 +640,7 @@
         "Node name for S&R": "KSampler"
       },
       "widgets_values": [
-        328510831957349,
+        655251458700218,
         "randomize",
         20,
         2.5,
@@ -1505,73 +1505,6 @@
       ]
     },
     {
-      "id": 400,
-      "type": "KSampler",
-      "pos": [
-        -63,
-        -1072
-      ],
-      "size": {
-        "0": 315,
-        "1": 262
-      },
-      "flags": {},
-      "order": 50,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 794,
-          "label": "模型",
-          "slot_index": 0
-        },
-        {
-          "name": "positive",
-          "type": "CONDITIONING",
-          "link": 760,
-          "label": "正面条件"
-        },
-        {
-          "name": "negative",
-          "type": "CONDITIONING",
-          "link": 761,
-          "label": "负面条件"
-        },
-        {
-          "name": "latent_image",
-          "type": "LATENT",
-          "link": 726,
-          "label": "Latent",
-          "slot_index": 3
-        }
-      ],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            729
-          ],
-          "shape": 3,
-          "label": "Latent",
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "KSampler"
-      },
-      "widgets_values": [
-        328510831957349,
-        "randomize",
-        20,
-        7,
-        "uni_pc_bh2",
-        "karras",
-        0.7000000000000001
-      ]
-    },
-    {
       "id": 403,
       "type": "SaveImage",
       "pos": [
@@ -2148,10 +2081,10 @@
         -4780,
         -80
       ],
-      "size": [
-        400,
-        200
-      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
       "flags": {},
       "order": 37,
       "mode": 0,
@@ -2198,10 +2131,10 @@
         -5760,
         -110
       ],
-      "size": [
-        400,
-        200
-      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
       "flags": {},
       "order": 36,
       "mode": 0,
@@ -2248,10 +2181,10 @@
         -31,
         -1483
       ],
-      "size": [
-        400,
-        200
-      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
       "flags": {},
       "order": 20,
       "mode": 0,
@@ -2363,10 +2296,10 @@
         949,
         -1453
       ],
-      "size": [
-        400,
-        200
-      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
       "flags": {},
       "order": 22,
       "mode": 0,
@@ -2529,6 +2462,73 @@
       ],
       "color": "#232",
       "bgcolor": "#353"
+    },
+    {
+      "id": 400,
+      "type": "KSampler",
+      "pos": [
+        -63,
+        -1072
+      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
+      "flags": {},
+      "order": 50,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 794,
+          "label": "模型",
+          "slot_index": 0
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 760,
+          "label": "正面条件"
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 761,
+          "label": "负面条件"
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 726,
+          "label": "Latent",
+          "slot_index": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            729
+          ],
+          "shape": 3,
+          "label": "Latent",
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        655251458700218,
+        "randomize",
+        20,
+        7,
+        "uni_pc_bh2",
+        "karras",
+        0.5
+      ]
     }
   ],
   "links": [

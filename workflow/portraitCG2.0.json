@@ -20,10 +20,10 @@
         "Node name for S&R": "easy globalSeed"
       },
       "widgets_values": [
-        328510831957349,
+        967596422302721,
         true,
         "randomize",
-        573546349739280
+        992951305372956
       ]
     },
     {
@@ -640,7 +640,7 @@
         "Node name for S&R": "KSampler"
       },
       "widgets_values": [
-        328510831957349,
+        967596422302721,
         "randomize",
         20,
         2.5,
@@ -1505,73 +1505,6 @@
       ]
     },
     {
-      "id": 400,
-      "type": "KSampler",
-      "pos": [
-        -63,
-        -1072
-      ],
-      "size": {
-        "0": 315,
-        "1": 262
-      },
-      "flags": {},
-      "order": 50,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 794,
-          "label": "模型",
-          "slot_index": 0
-        },
-        {
-          "name": "positive",
-          "type": "CONDITIONING",
-          "link": 760,
-          "label": "正面条件"
-        },
-        {
-          "name": "negative",
-          "type": "CONDITIONING",
-          "link": 761,
-          "label": "负面条件"
-        },
-        {
-          "name": "latent_image",
-          "type": "LATENT",
-          "link": 726,
-          "label": "Latent",
-          "slot_index": 3
-        }
-      ],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            729
-          ],
-          "shape": 3,
-          "label": "Latent",
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "KSampler"
-      },
-      "widgets_values": [
-        328510831957349,
-        "randomize",
-        20,
-        7,
-        "uni_pc_bh2",
-        "karras",
-        0.7000000000000001
-      ]
-    },
-    {
       "id": 403,
       "type": "SaveImage",
       "pos": [
@@ -2084,74 +2017,16 @@
       ]
     },
     {
-      "id": 426,
-      "type": "LoraLoader",
-      "pos": [
-        -979,
-        -1901
-      ],
-      "size": {
-        "0": 315,
-        "1": 126
-      },
-      "flags": {},
-      "order": 12,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 786,
-          "label": "模型"
-        },
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 787,
-          "label": "CLIP"
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            784
-          ],
-          "shape": 3,
-          "label": "模型",
-          "slot_index": 0
-        },
-        {
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            785
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LoraLoader"
-      },
-      "widgets_values": [
-        "pixel sprites.safetensors",
-        1,
-        1
-      ]
-    },
-    {
       "id": 390,
       "type": "CLIPTextEncode",
       "pos": [
         -4780,
         -80
       ],
-      "size": [
-        400,
-        200
-      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
       "flags": {},
       "order": 37,
       "mode": 0,
@@ -2198,10 +2073,10 @@
         -5760,
         -110
       ],
-      "size": [
-        400,
-        200
-      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
       "flags": {},
       "order": 36,
       "mode": 0,
@@ -2248,10 +2123,10 @@
         -31,
         -1483
       ],
-      "size": [
-        400,
-        200
-      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
       "flags": {},
       "order": 20,
       "mode": 0,
@@ -2363,10 +2238,10 @@
         949,
         -1453
       ],
-      "size": [
-        400,
-        200
-      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
       "flags": {},
       "order": 22,
       "mode": 0,
@@ -2407,6 +2282,39 @@
       ]
     },
     {
+      "id": 430,
+      "type": "easy string",
+      "pos": [
+        -5162,
+        -689
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "links": [
+            798,
+            801
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "easy string"
+      },
+      "widgets_values": [
+        "indoors, ahoge, barefoot,closed mouth, couch, collarbone, ear piercing, facing viewer, feet, foot focus, foreshortening, hair between eyes, looking at viewer, on couch, piercing, shirt, short hair, short sleeves, sitting, soles, toes, upper body, very long hair,"
+      ]
+    },
+    {
       "id": 407,
       "type": "CLIPTextEncode",
       "pos": [
@@ -2444,39 +2352,6 @@
       },
       "widgets_values": [
         "masterpiece, best quality,ultra-detailed,illustration, extremely detailed CG unity 8k wallpaper,best quality,Amazing,finely detail,detailed background,beautiful detailed eyes,bright pupils, dynamic pose,dynamic angle,looking at viewer,detailed clothes,cinematic lighting,score_9, score_8_up, score_7_up,score_9, score_8_up, score_7_up,"
-      ]
-    },
-    {
-      "id": 430,
-      "type": "easy string",
-      "pos": [
-        -5162,
-        -689
-      ],
-      "size": {
-        "0": 315,
-        "1": 58
-      },
-      "flags": {},
-      "order": 7,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "string",
-          "type": "STRING",
-          "links": [
-            798,
-            801
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "easy string"
-      },
-      "widgets_values": [
-        "indoors, ahoge, barefoot,closed mouth, couch, collarbone, ear piercing, facing viewer, feet, foot focus, foreshortening, hair between eyes, looking at viewer, on couch, piercing, shirt, short hair, short sleeves, sitting, soles, toes, upper body, very long hair,"
       ]
     },
     {
@@ -2525,10 +2400,135 @@
         "Node name for S&R": "CheckpointLoaderSimple"
       },
       "widgets_values": [
-        "anyloraCheckpoint_bakedvaeBlessedFp16.safetensors"
+        "helloflatcute2d_V10.safetensors"
       ],
       "color": "#232",
       "bgcolor": "#353"
+    },
+    {
+      "id": 400,
+      "type": "KSampler",
+      "pos": [
+        -63,
+        -1072
+      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
+      "flags": {},
+      "order": 50,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 794,
+          "label": "模型",
+          "slot_index": 0
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 760,
+          "label": "正面条件"
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 761,
+          "label": "负面条件"
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 726,
+          "label": "Latent",
+          "slot_index": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            729
+          ],
+          "shape": 3,
+          "label": "Latent",
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        967596422302721,
+        "randomize",
+        20,
+        7,
+        "dpmpp_3m_sde_gpu",
+        "karras",
+        0.7000000000000001
+      ]
+    },
+    {
+      "id": 426,
+      "type": "LoraLoader",
+      "pos": [
+        -979,
+        -1901
+      ],
+      "size": {
+        "0": 315,
+        "1": 126
+      },
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 786,
+          "label": "模型"
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 787,
+          "label": "CLIP"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            784
+          ],
+          "shape": 3,
+          "label": "模型",
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            785
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoraLoader"
+      },
+      "widgets_values": [
+        "2D_flat-000010.safetensors",
+        1,
+        1
+      ]
     }
   ],
   "links": [
