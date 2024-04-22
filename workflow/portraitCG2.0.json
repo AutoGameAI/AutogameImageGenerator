@@ -20,10 +20,10 @@
         "Node name for S&R": "easy globalSeed"
       },
       "widgets_values": [
-        967596422302721,
+        703169206838607,
         true,
         "randomize",
-        992951305372956
+        273947481894068
       ]
     },
     {
@@ -640,7 +640,7 @@
         "Node name for S&R": "KSampler"
       },
       "widgets_values": [
-        967596422302721,
+        703169206838607,
         "randomize",
         20,
         2.5,
@@ -893,7 +893,7 @@
         "1": 220
       },
       "flags": {},
-      "order": 11,
+      "order": 12,
       "mode": 0,
       "inputs": [
         {
@@ -924,7 +924,7 @@
         false,
         false,
         "1girl, full_body,solo,hands_in_pockets,black_background, from_side, 1boy,standing,simple_background black_background,side_view,arms_behind_back, looking_at_viewer,simple_background",
-        "long_hair, blue_eyes, long_sleeves, hair_ornament, white_background, dress, animal_ears, tail, white_hair, flower, virtual_youtuber, hair_flower, high_heels"
+        "long_hair, dress, holding, very_long_hair, sitting, green_eyes, tail, braid, horns, black_footwear, high_heels, chinese_clothes, crossed_legs, china_dress, dragon_horns, dragon_girl, dragon_tail"
       ]
     },
     {
@@ -1976,47 +1976,6 @@
       ]
     },
     {
-      "id": 386,
-      "type": "LoadImage",
-      "pos": [
-        117,
-        -314
-      ],
-      "size": {
-        "0": 446.45166015625,
-        "1": 839.471435546875
-      },
-      "flags": {},
-      "order": 4,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            699,
-            702,
-            795
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LoadImage"
-      },
-      "widgets_values": [
-        "T_SnowWillow_Avatar (1).png",
-        "image"
-      ]
-    },
-    {
       "id": 390,
       "type": "CLIPTextEncode",
       "pos": [
@@ -2178,7 +2137,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 5,
+      "order": 4,
       "mode": 0,
       "outputs": [
         {
@@ -2196,39 +2155,6 @@
       },
       "widgets_values": [
         "RealESRGAN_x4.pth"
-      ]
-    },
-    {
-      "id": 431,
-      "type": "easy string",
-      "pos": [
-        -4898,
-        -846
-      ],
-      "size": {
-        "0": 315,
-        "1": 58
-      },
-      "flags": {},
-      "order": 6,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "string",
-          "type": "STRING",
-          "links": [
-            799,
-            800
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "easy string"
-      },
-      "widgets_values": [
-        "1girl, white hair, white tail, fox tail, fox ear, dress"
       ]
     },
     {
@@ -2279,39 +2205,6 @@
       },
       "widgets_values": [
         "indoors, ahoge, barefoot,closed mouth, couch, collarbone, ear piercing, facing viewer, feet, foot focus, foreshortening, hair between eyes, looking at viewer, on couch, piercing, shirt, short hair, short sleeves, sitting, soles, toes, upper body, very long hair"
-      ]
-    },
-    {
-      "id": 430,
-      "type": "easy string",
-      "pos": [
-        -5162,
-        -689
-      ],
-      "size": {
-        "0": 315,
-        "1": 58
-      },
-      "flags": {},
-      "order": 7,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "string",
-          "type": "STRING",
-          "links": [
-            798,
-            801
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "easy string"
-      },
-      "widgets_values": [
-        "indoors, ahoge, barefoot,closed mouth, couch, collarbone, ear piercing, facing viewer, feet, foot focus, foreshortening, hair between eyes, looking at viewer, on couch, piercing, shirt, short hair, short sleeves, sitting, soles, toes, upper body, very long hair,"
       ]
     },
     {
@@ -2366,7 +2259,7 @@
         "1": 98
       },
       "flags": {},
-      "order": 8,
+      "order": 5,
       "mode": 0,
       "outputs": [
         {
@@ -2404,6 +2297,171 @@
       ],
       "color": "#232",
       "bgcolor": "#353"
+    },
+    {
+      "id": 386,
+      "type": "LoadImage",
+      "pos": [
+        117,
+        -314
+      ],
+      "size": {
+        "0": 446.45166015625,
+        "1": 839.471435546875
+      },
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            699,
+            702,
+            795
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "1girl, white hair, red, cheongsam, dragon hron,braided hair, dragon tail,mature woman (1).png",
+        "image"
+      ]
+    },
+    {
+      "id": 431,
+      "type": "easy string",
+      "pos": [
+        -4898,
+        -846
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "links": [
+            799,
+            800
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "easy string"
+      },
+      "widgets_values": [
+        "1girl, white hair, dragon tail, dragon horn, red cheongsam,"
+      ]
+    },
+    {
+      "id": 430,
+      "type": "easy string",
+      "pos": [
+        -5162,
+        -689
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "links": [
+            798,
+            801
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "easy string"
+      },
+      "widgets_values": [
+        "Ignacia, with sunlight filtering through her vibrant red hair, lifts her gaze towards the sky, her face illuminated by a soft, warm glow. She smiles gently, reflecting a sense of wonder and tranquility. They are by a shimmering blue lake, the water sparkling under the sun, gently undulating with small waves that mirror their reflections. Ignacia's feet are dipped into the water, causing ripples that catch the light. The environment around them is serene and natural, with lush greenery framing the lake, and distant hills under a clear blue sky. The perspective is from a fellow traveler, standing slightly to her side, observing this peaceful moment as if capturing a scene from a beautifully illustrated storybook."
+      ]
+    },
+    {
+      "id": 426,
+      "type": "LoraLoader",
+      "pos": [
+        -979,
+        -1901
+      ],
+      "size": {
+        "0": 315,
+        "1": 126
+      },
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 786,
+          "label": "模型"
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 787,
+          "label": "CLIP"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            784
+          ],
+          "shape": 3,
+          "label": "模型",
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            785
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoraLoader"
+      },
+      "widgets_values": [
+        "2D_flat-000010.safetensors",
+        0.5,
+        1
+      ]
     },
     {
       "id": 400,
@@ -2463,71 +2521,13 @@
         "Node name for S&R": "KSampler"
       },
       "widgets_values": [
-        967596422302721,
+        703169206838607,
         "randomize",
         20,
         7,
         "dpmpp_3m_sde_gpu",
         "karras",
-        0.7000000000000001
-      ]
-    },
-    {
-      "id": 426,
-      "type": "LoraLoader",
-      "pos": [
-        -979,
-        -1901
-      ],
-      "size": {
-        "0": 315,
-        "1": 126
-      },
-      "flags": {},
-      "order": 12,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 786,
-          "label": "模型"
-        },
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 787,
-          "label": "CLIP"
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            784
-          ],
-          "shape": 3,
-          "label": "模型",
-          "slot_index": 0
-        },
-        {
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            785
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LoraLoader"
-      },
-      "widgets_values": [
-        "2D_flat-000010.safetensors",
-        1,
-        1
+        0.5
       ]
     }
   ],
