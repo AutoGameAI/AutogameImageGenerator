@@ -9325,7 +9325,7 @@
         false,
         false,
         "1girl, full_body,solo,hands_in_pockets,black_background, from_side, 1boy,standing,simple_background black_background,side_view,arms_behind_back, looking_at_viewer,simple_background",
-        "monkey_d._luffy, smile, short_hair, black_hair, hat, white_shirt, male_focus, open_clothes, pants, scar, sandals, scar_on_face, straw_hat, scar_on_chest"
+        "long_hair, breasts, large_breasts, long_sleeves, dress, hat, very_long_hair, pink_hair, covered_navel, witch_hat, blue_headwear, condom"
       ]
     },
     {
@@ -9947,42 +9947,6 @@
       ]
     },
     {
-      "id": 704,
-      "type": "easy string",
-      "pos": [
-        -7128,
-        -2574
-      ],
-      "size": {
-        "0": 315,
-        "1": 58
-      },
-      "flags": {},
-      "order": 23,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "string",
-          "type": "STRING",
-          "links": [
-            1350,
-            1351,
-            1352,
-            1372,
-            1533
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "easy string"
-      },
-      "widgets_values": [
-        "((1boy, Monkey D. Luffy, straw hat,red jecket, blue pants))"
-      ]
-    },
-    {
       "id": 828,
       "type": "SaveImage",
       "pos": [
@@ -10142,6 +10106,42 @@
       "widgets_values": [
         "face",
         0.4
+      ]
+    },
+    {
+      "id": 704,
+      "type": "easy string",
+      "pos": [
+        -7128,
+        -2574
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "links": [
+            1350,
+            1351,
+            1352,
+            1372,
+            1533
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "easy string"
+      },
+      "widgets_values": [
+        "((1girl, pink hair, black skirt, nicebody,long hair, witch,))"
       ]
     }
   ],
